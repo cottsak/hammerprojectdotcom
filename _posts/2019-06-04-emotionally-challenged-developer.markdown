@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Effective teams: When you’re an emotionally challenged developer"
-redirect_from: /post/185353688054/effective-teams-when-youre-an-emotionally
+redirect_from: 
+    - /post/185353688054/effective-teams-when-youre-an-emotionally
+    - /post/185353688054/three-tips-for-emotionally-challenged-developers
 date:   2019-06-04 00:00:00 +0800
 ---
 I am an emotionally challenged developer!
