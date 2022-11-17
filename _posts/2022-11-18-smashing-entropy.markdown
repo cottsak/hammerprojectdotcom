@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Smashing Entropy"
-date:   2022-11-18 01:00:00 +0800
+date:   2022-11-18 01:15:00 +0800
 ---
 
 ![smash it with a hammer](/assets/smashit.png)  
