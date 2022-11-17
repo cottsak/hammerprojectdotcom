@@ -7,13 +7,13 @@ date:   2022-11-18 01:15:00 +0800
 ![smash it with a hammer](/assets/smashit.png)  
 source: [The Emperor's New Groove](https://www.disneyplus.com/movies/the-emperors-new-groove/3jFGExhfWgxg)
 
-# tl;dr
+## tl;dr
 
 Entropy will destroy your business and your product if you do nothing. So in order to prevent this doomed future you will need to fight it.
 Fighting entropy requires an aggressive approach to keeping things small and getting feedback fast.
 However you will encounter resistance in the form of people. Without a smart person in a powerful position with a big hammer, you may only have moderate success.
 
-# What is Entropy?
+## What is Entropy?
 
 Entropy is often described as the measure of disorder or the loss of information. In the case of information and software systems you can think of information "loss" as the signal to noise ratio ([SNR](https://en.wikipedia.org/wiki/Signal-to-noise_ratio)). Values > 1 mean more signal than noise.
 
@@ -24,7 +24,7 @@ I'm not talking about Technical Debt here. Much has been written on this subject
 Entropy is the gravitational like force which pulls you, your team and your whole company in the direction of "more". It's your job to extract, disassembly, dissect and prune back this "more" so get to the signal: the critical and essential parts you need to [ship the next iteration and validate what you think you know](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898). 
 
 
-# How Do I Squish This Thing?
+## How Do I Squish This Thing?
 
 Apply Elon's *5 Steps To Design*.
 
@@ -34,7 +34,7 @@ The following video clip captures Elon Musk enumerating his 5 step design method
 
 source: [Starbase Tour with Elon Musk PART 1 // Summer 2021](https://www.youtube.com/watch?v=t705r8ICkRw&t=805s)
 
-## Elon's Five Steps To Design
+### Elon's Five Steps To Design
 
 1. **Make the requirements less dumb**.
     * Each requirement/constraint must have a *person* and not a *department*.
@@ -49,7 +49,7 @@ source: [Starbase Tour with Elon Musk PART 1 // Summer 2021](https://www.youtube
 
 If these steps make intuitive sense to you then you're probably a good agent for change. The very next thing you might realise however is that you don't have the power to influence any/all of this. This is where you need the hammer.
 
-# So What Is The Key Ingredient?
+## So What Is The Key Ingredient?
 
 Andrej Karpathy made [this statement in a recent interview](https://youtu.be/cdiD-9MMpb0?t=5751):
 
@@ -78,4 +78,4 @@ Thank you to Hamish, Cam, Michael, Ryan, Ed, Colin, and Duane for reading drafts
 
 If you think it’s about time you had someone like this in your organisation, then [hit me up](https://www.linkedin.com/in/cottsak/). I might know someone 😉
 
-<!-- This article has been cross-posted to LinkedIn and Dev.to. Feel free to discuss there or even Hacker News. -->
+<!-- Please [discuss on HN](https://news.ycombinator.com/item?id=33642239), [LinkedIn](https://www.linkedin.com/pulse/smashing-entropy-matt-kocaj) or Dev.to -->
