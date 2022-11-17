@@ -1,0 +1,2 @@
+# hammerprojectdotcom
+new blog cms
