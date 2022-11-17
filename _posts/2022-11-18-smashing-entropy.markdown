@@ -21,7 +21,7 @@ You don't have to change the quantity of the signal for the SNR to drop. You onl
 
 I'm not talking about Technical Debt here. Much has been written on this subject. But I will say that Technical Debt is a form of entropy. Once you have a strategy to combat entropy you also solve for Technical Debt. 
 
-Entropy is the gravitational like force which pulls you, your team and your whole company in the direction of "more". It's your job to extract, disassembly, dissect and prune back this "more" so get to the signal: the critical and essential parts you need to [ship the next iteration and validate what you think you know](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898). 
+Entropy is the gravitational like force which pulls you, your team and your whole company in the direction of "more". It's your job to extract, disassemble, dissect and prune back this "more" so get to the signal: the critical and essential parts you need to [ship the next iteration and validate what you think you know](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898). 
 
 
 ## How Do I Squish This Thing?
