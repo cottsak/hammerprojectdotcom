@@ -21,7 +21,7 @@
 title: the Hammer Project
 description: >- # this means to ignore newlines until "baseurl:"
   Learning how to be less wrong... one day at a time.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/hammerprojectdotcom" # the subpath of your site, e.g. /blog
 url: "https://cottsak.github.io/hammerprojectdotcom/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mattkocaj
 github_username:  cottsak
