@@ -78,4 +78,4 @@ Thank you to Hamish, Cam, Michael, Ryan, Ed, Colin, and Duane for reading drafts
 
 If you think it’s about time you had someone like this in your organisation, then [hit me up](https://www.linkedin.com/in/cottsak/). I might know someone 😉
 
-<!-- Please [discuss on HN](https://news.ycombinator.com/item?id=33642239), [LinkedIn](https://www.linkedin.com/pulse/smashing-entropy-matt-kocaj) or Dev.to -->
+Please [discuss on HN](https://news.ycombinator.com/item?id=33642239), [LinkedIn](https://www.linkedin.com/pulse/smashing-entropy-matt-kocaj) or [Dev.to](https://dev.to/mattkocaj/smashing-entropy-36a7)
