@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Here's what I found after 10h diving into Lambda, js and Github Actions"
+date:   2022-12-20 11:03:00 +0800
+---
+
+I recently heard that you can [learn almost anything if you spend 20h of unbroken, concentrated effort](todo). Of course you won't become an expert and everyone has to pee, so the statement comes with some obvious caveats. But I thought I would try something new and dump most of a weekend onto a small project. 
+
+---
+
+todo: story
+
+todo: Key Takeaways for Me
+
+todo: read 30m of `The Elements of Style` and do a 15m timebox edit of the post.
+
+todo: footer: discuss on HN, or dev.to
+
+todo: rename file in `/_posts`
