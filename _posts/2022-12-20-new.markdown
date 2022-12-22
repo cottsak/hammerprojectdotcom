@@ -4,16 +4,47 @@ title:  "Here's what I found after 10h diving into Lambda, js and Github Actions
 date:   2022-12-20 11:03:00 +0800
 ---
 
-I recently heard that you can [learn almost anything if you spend 20h of unbroken, concentrated effort](todo). Of course you won't become an expert and everyone has to pee, so the statement comes with some obvious caveats. But I thought I would try something new and dump most of a weekend onto a small project. 
+I recently heard that you can [learn almost anything if you spend 20h of unbroken, concentrated effort](https://youtu.be/JPCJEtMXOu0?t=1347). Of course you won't become an expert and everyone has to pee, so the statement comes with some obvious caveats. But I thought I would try something new and dump most of a weekend onto a small project. 
 
----
+## The Story
 
-todo: story
+I've been suffering from a very not-painful first-world problem lately. 😋 When I get out of my car and go into the house I usually have my hands full and I want to lock the car behind me. To overcome this, I would like to ask Siri to [lock the car](https://youtu.be/awui-L4J_p8) instead of opening the app and tapping it. I've discovered that the Tesla app needs to be open for the car to take commands via Siri. This won't help when the phone is in my pocket locked and all I have to access "hands free" is the Apple Watch. So I asked myself 
 
-todo: Key Takeaways for Me
+> Can I create a web endpoint that I can call with [Shortcuts](https://support.apple.com/en-gb/guide/shortcuts/welcome/ios) which can be invoked using Siri?
+
+Turns out I can. So I set out to create an endpoint that was long enough to be "secure" so that I could write a simple Shortcut that I could use with Siri from my Apple Watch while my hands were full. Something like this:
+
+```
+aws.thingy.com/lambda/lock-car?secure-token=reallylongassrandomstringthatyoucantguesssothisiskindasecure
+```
+
+After knocking out a README with a set of goals and a list of TODOs to check off as I made progress, I spent about 10 hours over a weekend trying to get something to work. I used [`serverless`](https://www.npmjs.com/package/serverless) for making [Lambda](https://aws.amazon.com/lambda/) easier, [Github Actions](https://github.com/features/actions) for the deploy pipeline and store my credentials; and sadly I rolled my own `access_token` refresh logic because I couldn't find a helper that just did that for me! wtf!? 
+
+![using a README as a backlog. do it!](/assets/some%20of%20the%20lock-car%20readme.png)
+
+I now have a Shortcut that works using Siri; a Lambda that can refresh it's own token and a reliable way to lock my Tesla without my hands. It even speaks the text response from the HTTP call: "car is locked" which is kinda satisfying.
+
+![the final product](/assets/lock%20car%20shortcut.jpg)
+
+## Key Takeaways for Me
+
+* serverless is amazing
+* lambdas are pretty quick
+* the js was pretty straightforward 
+* Actions start and run _really_ fast!
+* i didnt feel the need to use parameter store as the credentials in Secrets are one way and serverless hides them in the logs when mapping params
+* i wanted to have a "revocation" call but I changed my mind on that
+
+## Whats Next?
+
+todo: expand the below sections
+
+* setting up a new Shortcut to start charging the car
+* how will it be structured in Lambda?
+* how can i share code like the token refresh logic?
 
 todo: read 30m of `The Elements of Style` and do a 15m timebox edit of the post.
 
 todo: footer: discuss on HN, or dev.to
 
-todo: rename file in `/_posts`
+todo: rename file in `/_posts` and update the post `date` value 
