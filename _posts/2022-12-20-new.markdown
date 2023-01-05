@@ -28,23 +28,31 @@ I now have a Shortcut that works using Siri; a Lambda that can refresh it's own 
 
 ## Key Takeaways for Me
 
-* serverless is amazing
-* lambdas are pretty quick
-* the js was pretty straightforward 
-* Actions start and run _really_ fast!
-* i didnt feel the need to use parameter store as the credentials in Secrets are one way and serverless hides them in the logs when mapping params
-* i wanted to have a "revocation" call but I changed my mind on that
+* **[`serverless`](https://www.serverless.com/) is amazing!** Sure it was the first thing I found. But it made it super easy to set up my js project locally, run it locally and deploy it from the command line. Adding those commands to Github Actions was also pretty painless and the cli interface had some 
+
+![the Quick Start in the README is super terse with serverless](/assets/some%20of%20the%20quick%20start%20from%20the%20readme.png)
+
+* **Lambdas are pretty quick.** Cold starts from the Shortcuts app can be about 5s end-to-end and this includes a token refresh. When the lambda is warm and using the new `access_token`, it can be as quick as ~1100ms according to CloudWatch.
+
+![logs showing the token refresh on a cold call](/assets/cold%20start%20and%20token%20refresh.png)
+
+* The js was pretty straightforward and I'm no js/ts expert. I was cautious and used callbacks instead of Promises. So I should try that next time. 😋
+* **Actions start and run _really_ fast!** Having come from the "old days" where pipelines were <10m to large microservices codebases where pipelines are back to running ~30m, it is super refreshing to have a pipeline which is not only short in terms of duration (1-2m total) but kicks off within a couple of seconds of my pushing my code to `master`. 🥰
+* I didn't feel the need to use [Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) as the credentials in Secrets are one way and `serverless` hides them in the logs when mapping params (or is it [actually Github doing this?](https://docs.github.com/en/actions/security-guides/encrypted-secrets#accessing-your-secrets)). I accept that for a "professional" application, I wouldn't do it this way, but it's fine given the context. Feel free to tell me why I'm wrong. 😋
+* I wanted to create a "revocation" call to pair with this automation but I changed my mind on that. Mostly because the commonly accepted approach with an integration platform with API credentials is to reset the password on the primary account and this invalidates all derived keys. I tested this and it works so I think that's fine for now. Yes, I have a production key stored in Github and as an ENV var in AWS which is as good as my Tesla password, but the attack surface is pretty limited I think. There are other apps which ask you to authenticate, and then they persist refresh tokens. I don't think my solution is worse or creates more risk than those.
 
 ## Whats Next?
 
-todo: expand the below sections
+Here are just some random thoughts about things I might want to change or improve:
 
 * setting up a new Shortcut to start charging the car
 * how will it be structured in Lambda?
-* how can i share code like the token refresh logic?
+* how can I share code like the token refresh logic between two functions?
 
 todo: read 30m of `The Elements of Style` and do a 15m timebox edit of the post.
 
 todo: footer: discuss on HN, or dev.to
 
 todo: rename file in `/_posts` and update the post `date` value 
+
+todo: talk in present tense instead of past. `s/was/is` ??
