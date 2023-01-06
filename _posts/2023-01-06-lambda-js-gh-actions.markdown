@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Here's what I found after 10h diving into Lambda, js and Github Actions"
-date:   2022-12-20 11:03:00 +0800
+title:  "Key learnings after 10h diving into Lambda, js and Github Actions"
+date:   2023-01-06 08:48:00 +0800
 ---
 
 I recently heard that you can [learn almost anything if you spend 20h of unbroken, concentrated effort](https://youtu.be/JPCJEtMXOu0?t=1347). Of course you won't become an expert and everyone has to pee, so the statement comes with some obvious caveats. But I thought I would try something new and dump most of a weekend onto a small project. 
@@ -49,10 +49,11 @@ Here are just some random thoughts about things I might want to change or improv
 * how will it be structured in Lambda?
 * how can I share code like the token refresh logic between two functions?
 
-todo: read 30m of `The Elements of Style` and do a 15m timebox edit of the post.
-
-todo: footer: discuss on HN, or dev.to
-
+<!-- 
 todo: rename file in `/_posts` and update the post `date` value 
-
 todo: talk in present tense instead of past. `s/was/is` ??
+todo: double check images to make sure I'm not leaking anything sensitive
+
+todo: post to PROD, the add footer: discuss on HN, or dev.to
+todo: read 30m of `The Elements of Style` and do a 15m timebox edit of the post. 
+-->
