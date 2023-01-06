@@ -12,7 +12,7 @@ I've been suffering from a very not-painful first-world problem lately. 😋 Whe
 
 > Can I create a web endpoint that I can call with [Shortcuts](https://support.apple.com/en-gb/guide/shortcuts/welcome/ios) which can be invoked using Siri?
 
-Turns out I can. So I set out to create an endpoint that was long enough to be "secure" so that I could write a simple Shortcut that I could use with Siri from my Apple Watch while my hands were full. Something like this:
+Turns out I can. So I set out to create an endpoint that is long enough to be "secure" so that I could write a simple Shortcut that I could use with Siri from my Apple Watch while my hands were full. Something like this:
 
 ```
 aws.thingy.com/lambda/lock-car?secure-token=reallylongassrandomstringthatyoucantguesssothisiskindasecure
@@ -28,7 +28,7 @@ I now have a Shortcut that works using Siri; a Lambda that can refresh it's own 
 
 ## Key Takeaways for Me
 
-* **[`serverless`](https://www.serverless.com/) is amazing!** Sure it's the first thing I found. But it made it super easy to set up my js project locally, run it locally and deploy it from the command line. I can't understate the importance of a fast feedback cycle. Since I lack a lot of debugging experience with vscode/ts/js it was important that I could `console.log` easily and run locally to try/fail/repeat. 
+* **[`serverless`](https://www.serverless.com/) is amazing!** Sure it's the first thing I found. But it made it super easy to set up my js project locally, run it locally and deploy it from the command line. I can't understate the importance of a fast feedback cycle. Since I lack a lot of debugging experience with vscode/ts/js it is important that I can `console.log` easily and run locally to try/fail/repeat. 
 
 ![the Quick Start in the README is super terse with serverless](/assets/some%20of%20the%20quick%20start%20from%20the%20readme.png)
 
@@ -52,8 +52,6 @@ Here are just some random thoughts about things I might want to change or improv
 I hope you found this interesting. I'm constantly amazed at what can be accomplished if you set your mind to a clear goal.
 
 <!-- 
-todo: talk in present tense instead of past. `s/was/is` ??
-
 todo: post to PROD, the add footer: discuss on HN, or dev.to
 todo: read 30m of `The Elements of Style` and do a 15m timebox edit of the post. 
 -->
