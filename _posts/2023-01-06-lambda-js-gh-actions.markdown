@@ -51,7 +51,8 @@ Here are just some random thoughts about things I might want to change or improv
 
 I hope you found this interesting. I'm constantly amazed at what can be accomplished if you set your mind to a clear goal.
 
+Discuss on [dev.to](https://dev.to/mattkocaj/key-learnings-after-10h-diving-into-lambda-js-and-github-actions-4g3i)
+
 <!-- 
-todo: after post to PROD, then add footer: discuss on HN, or dev.to
 todo: read 30m of `The Elements of Style` and do a 15m timebox edit of the post. 
 -->
