@@ -1,6 +1,6 @@
 # hammerprojectdotcom
 
-new blog hotness
+[new blog](https://hammerproject.com/) hotness
 
 ## Writing
 
