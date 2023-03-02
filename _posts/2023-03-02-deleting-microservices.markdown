@@ -57,7 +57,7 @@ todo: problem space
 
 # Ideally, you might want to consider going back to a monolithic app
 
-Not because I like the term "monolith", but because it's the simplest wat to describe where an architecture should begin most of the time. It's [considered fairly safe to start with a monolithic app](https://www.martinfowler.com/bliki/MonolithFirst.html) and go from there. Soon chaos kicks in and you need to organise your code. But if you hire experienced engineers, they can show you and your team how to do this. It's not rocket surgery - half of the web is built on monolithic web applications like ages ago and many of them scale just fine. 
+Not because I like the term "monolith", but because it's the simplest way to describe where an architecture should begin most of the time. It's [considered fairly safe to start with a monolithic app](https://www.martinfowler.com/bliki/MonolithFirst.html) and go from there. Soon chaos kicks in and you need to organise your code. But if you hire experienced engineers, they can show you and your team how to do this. It's not rocket surgery - half of the web is built on monolithic web applications like ages ago and many of them scale just fine. 
 
 So maybe your architecture evolves to extract distinct services that you can actually develop and deploy independently. You can even scale them separately too - cos everyone has scaling problems when they start out right? 😉
 
@@ -70,7 +70,7 @@ But the advice usually goes like this:
 
 Once you have one or two very distinct and independently useful services working well, you're "doing microservices" or some form of SOA. Cool points to you! Coming back from this is easier because you do it slowly and this also ensures that the odds of a misfire are lower because the decision is based on a lot of experience. 
 
-But once you've started down the microservice journey, and especially if it's from the start or just too early or too completely - you might find you're in pain. "Going back" [to a monolith] seems like a step backwards because it is. It's one of those _one step back and two steps forward_ kinda things. Or _live to fight another day_ or whatever! Insert your own wise catchphrase. 
+But once you've started down the microservice journey where your boundaries are wrong, and especially if it's from the start or just too early or too completely - you might find you're in pain. "Going back" [to a monolith] seems like a step backwards because it is. It's one of those _one step back and two steps forward_ kinda things. Or _live to fight another day_ or whatever! Insert your own wise catchphrase. 
 
 There may be some fear or ego that can get in the way of taking a holistic strategic path to striking "microservices" from the company engineering blog. It's not going to be popular at the pub with your developer friends: "yeh well guess what we decided to do this week? Stop using microservices completely and go back to a monolith". No more beer for you!
 
