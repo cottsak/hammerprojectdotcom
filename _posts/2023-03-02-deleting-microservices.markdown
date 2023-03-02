@@ -54,6 +54,11 @@ I tried to venture into naming and found Microliths and Monoservices. But of cou
 
 todo: problem space
 
+# How to delete a microservice
+
+todo: explain the collapse method and how to choose a candidate
+
+This is a piecemeal approach, far less courageous than strategically choosing to kill all of them. But one that may be more palatable to your risk averse engineering leaders. I mean after all, they've just been all cool and shit with their microservices architecture and it's eating them alive! You gotta empathise with their aversion to risk okay.
 
 # Ideally, you might want to consider going back to a monolithic app
 
@@ -74,8 +79,18 @@ But once you've started down the microservice journey where your boundaries are 
 
 There may be some fear or ego that can get in the way of taking a holistic strategic path to striking "microservices" from the company engineering blog. It's not going to be popular at the pub with your developer friends: "yeh well guess what we decided to do this week? Stop using microservices completely and go back to a monolith". No more beer for you!
 
-# How to delete a microservice
+# Get good at deleting everything
 
-todo: explain the collapse method and how to choose a candidate
+Because when you push lots of red PRs it's a nice feeling. 
 
-This is a piecemeal approach, far less courageous than strategically choosing to kill all of them. But one that may be more palatable to your risk averse engineering leaders. I mean after all, they've just been all cool and shit with their microservices architecture and it's eating them alive! You gotta empathise with their aversion to risk okay.
+Also it just lightens everyone's burden.
+
+Also `simple === power`.
+
+And lastly, when you delete shit a lot you tend to find that it's easier to identify what you shouldn't have created in the first place. You won't be extracting a new microservice in a hurry next time. That's actually a good thing.
+
+Good luck.
+
+---
+
+ps. all of this is just my opinion (and a fuck-tonne of experience) so do your own research, weigh your own RoI and never implement a strategy just cos you read it on a blog or because it's shiny and cool. 
