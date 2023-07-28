@@ -56,6 +56,8 @@ This is obviously an exaggeration, but complexity can lie in wait so well that i
 
 The other thing to call out here is that once complexity has taken hold, it can literally grind productivity to a halt; or at least make changes extremely slow. Often this comes about purely from the next developers inability to understand whats going on easily. Most engineers don't write code. That's not what we do for work. A programmers primary time sink is reading code, not writing it. So it's critical that you as a developer can help another developer read and understand what's going on. That's not just scoped to your function or file, but the application and system as a whole. Complexity will destroy this ability to read and understand. And since engineers are typically clever people, they will work around complexity at times not even realising that said workarounds are increasing the level of complexity! This doesn't seem wrong at the time because that developer has a good understanding in their head. But the next guy? Good fuken luck!
 
+EDIT: One thing I didn't really consider properly is how "exponential" this can grow. I guess this makes sense as to why it can _feel_ like it happens overnight. I want to give this more thought. Grug recommends: [Complexity Budget](https://htmx.org/essays/complexity-budget/)
+
 > grug no able see complexity demon, but grug sense presence in code base
 
 Even experienced engineers can't often put their finger on the exact source or target of the complexity. Sometimes it's a sense or a gut feeling. I've seen developers cringe, or curl up their face. It's an instinct that you develop over time and various projects. 
@@ -91,3 +93,7 @@ _Complexity is real and it's hunting you right now. But as an inexperienced engi
 The best counter to complexity as a new engineer is humility and open mindedness. I wish I applied more when I was younger and the more experienced I get, the more I try to focus on these things. Learn from clever peers. Learn from experienced engineers. 
 
 May The Force be with you. 🙏
+
+--
+
+Thank you to JakeGPT, Ruegen and Grug himself for edits, comments and feedback. 
