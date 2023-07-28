@@ -96,4 +96,6 @@ May The Force be with you. 🙏
 
 --
 
-Thank you to JakeGPT, Ruegen and Grug himself for edits, comments and feedback. 
+Thank you to JakeGPT, Ruegen and Grug himself for edits, comments and feedback.  
+
+Please discuss on [Dev.to](https://dev.to/mattkocaj/what-junior-devs-need-to-know-about-complexity-233n) or [LinkedIn](https://www.linkedin.com/posts/activity-7090548647792148480-9ZA1)
