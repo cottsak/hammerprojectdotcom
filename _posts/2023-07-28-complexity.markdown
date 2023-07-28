@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "complexity very, very bad"
-date:   2023-07-27 14:49:00 +0800
+date:   2023-07-28 12:00:00 +0800
 ---
 
 I don't remember how but I stumbled onto [grugbrain.dev](https://grugbrain.dev) last week.
