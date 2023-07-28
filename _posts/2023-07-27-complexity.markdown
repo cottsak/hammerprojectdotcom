@@ -62,8 +62,32 @@ Even experienced engineers can't often put their finger on the exact source or t
 
 > demon complexity spirit mocking him make change here break unrelated thing there what!?! mock mock mock ha ha so funny grug love programming and not becoming shiney rock speculator like grug senior advise
 
+This is an analogy to the "complexity spirit demon" having an intelligence of its own. It's genuinely hard to counter this thought if I'm honest. I joke a lot, but here I am very serious: given that the complexity is almost always sourced from another person, I don't think its a stretch to describe the "demon" as an intelligent entity. Think I'm crazy? Well, if you wanna go deep on this then consider that [the universe might actually have a tendency to entropy or disorder. And we humans facilitate this](https://youtu.be/DxL2HoqLbyA). So every line of code that's added is in fact just a little more potential for complexity and peer-induced pain. This is part of the reason why experienced developers love deleting code so much. Sometimes you just don't know where the disease is and you wanna rip large chunks out in the desperate hope that your artillery strikes will land on the enemy. 
+
+And other times, you just wanna start again from scratch. 
+
+Have you ever seen a senior engineer crying in the corner?  
+My money is on complexity.  
+I don't think Grug has chosen the word 'demon' lightly. 
+
+I'm not entirely clear on what "shiney rock speculator like grug senior advise" means but I suspect its something to do with the fact that getting paid well, often doesn't counter the pain that one can endure at the hands of complexity. I actually love software engineering as a creative pursuit all on its own. Sure I also need to feed my family but there are some things in this world that will threaten even the intrinsic love you hold for something: complexity is that to software engineering for many of my seasoned friends and colleagues. 
+
 > club not work on demon spirit complexity and bad idea actually hit developer who let spirit in with club: sometimes grug himself!
+
+Sometimes you can't simply attack the complexity directly. I've seen this time and time again. We engineers love to make cool stuff. Sadly tho, most of the "cool" things we build are not necessary, or are unnecessarily complex. This is where attacking the complexity becomes attacking another person. This then becomes a human relationship problem. And if you you thought being a programmer meant you could escape human relationship problems: you'd be wrong!
 
 > sadly, often grug himself
 
+It wouldn't be the first time I built something in an app and then later ripped it out myself due to complexity. It hurts and is humbling. So do it often! That's how you grow.
+
 > so grug say again and say often: complexity very, very bad
+
+The point can't be drilled hard enough. This is why I wanted to annotate this with my thoughts. I'm sure I'll be commenting on this theme for the rest of my career, probably at the pain of my grandchildren when I'm old and can't remember what I said 10 seconds ago. 
+
+If you're new to software engineering, and you can't see how all this fits in to your life, work or just the space in general then remember this:
+
+_Complexity is real and it's hunting you right now. But as a inexperienced engineer, you're vulnerable to it's guile and tricks. It's going to tempt you with shiny packages and tools. It's going to bend your mind and titillate your taste buds at conferences and with video presentations. Soon you will think you know more than someone else and next thing you know, you're writing some "cool" code that will impress all of your peers. It has you now. You're its bitch!_
+
+The best counter to complexity as a new engineer I'd say is humility and open mindedness. I wish I applied more when I was younger and the more experienced I get, the more I try to focus on these things. Learn from clever peers. Learn from experienced engineers. 
+
+May The Force be with you. 🙏
