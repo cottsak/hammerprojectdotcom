@@ -43,11 +43,22 @@ I can't train you how to spot complexity. It comes mostly with time. But one sig
 
 > complexity is spirit demon that enter codebase through well-meaning but ultimately very clubbable non grug-brain developers and project managers who not fear complexity spirit demon or even know about sometime
 
-> one day code base understandable and grug can get work done, everything good!
+I could be wrong, but I suspect that "non grug-brain developers" are actually "big brained developers" [as referenced elsewhere in the article](https://grugbrain.dev/). "non grug-brain developers" may also refer to junior or less-seasoned engineers. Or maybe devs that don't share some of Grug's qualities, like humility. Ego is certainly a common trait in the software engineering industry. "It's ok to be wrong" is an important life lesson. But applying this early in your SWE career will give you a significant advantage. 
 
+As I mentioned earlier, complexity is popular in our industry at times. This may be part of the reason why its not respected or even feared. Fear is important - it keeps you from falling off the edge of the cliff. It's a signal about danger. Complexity `==` danger. If an engineer has a hard time properly respecting complexity then a non-technical person like a project manager may find it harder still. 
+
+Keep in mind that as a new engineer, you won't know how to spot complexity at times. You often need a wide variety of experiences to see how complexity manifests in different contexts to attribute patterns to its appearance. There are few simple ways around this. You will learn over time. Some developers can't see it. There's no shame in this. 
+
+> one day code base understandable and grug can get work done, everything good!  
 > next day impossible: complexity demon spirit has entered code and very dangerous situation!
 
+This is obviously an exaggeration, but complexity can lie in wait so well that it can appear to jump out of nowhere. It's the [forrest for the trees](https://en.wiktionary.org/wiki/see_the_forest_for_the_trees) thing. Or simply that moment when you take a step back because you've been [in the weeds](https://digitalcultures.net/slang/in-the-weeds/) on a particular thing for so long that you don't see what's happened at a macro scale. 
+
+The other thing to call out here is that once complexity has taken hold, it can literally grind productivity to a halt; or at least make changes extremely slow. Often this comes about purely from the next developers inability to understand whats going on easily. Most engineers don't write code. That's not what we do for work. A programmers primary time sink is reading code, not writing it. So it's critical that you as a developer can help another developer read and understand what's going on. That's not just scoped to your function or file, but the application and system as a whole. Complexity will destroy this ability to read and understand. And since engineers are typically clever people, they will work around complexity at times not even realising that said workarounds are increasing the level of complexity. This doesn't seem wrong at the time because that developer has a good understanding in their head. But the next guy? Good fuken luck!
+
 > grug no able see complexity demon, but grug sense presence in code base
+
+Even experienced engineers can't often put their finger on the exact source or target of the complexity. Sometimes it's a sense or a gut feeling. I've seen developers cringe, or curl up their face. It's an instinct that you develop over time and various projects. 
 
 > demon complexity spirit mocking him make change here break unrelated thing there what!?! mock mock mock ha ha so funny grug love programming and not becoming shiney rock speculator like grug senior advise
 
