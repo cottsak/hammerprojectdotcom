@@ -33,7 +33,7 @@ If you think you truly need complexity `n`, then try to design it out. Try to re
 > you say now:  
 > complexity very, very bad
 
-Say it out loud even. If the guy across the desk from you gives you one of those "what a weirdo" looks, then link them to this post. Just be like "he hold me too" while pointing at your screen. 
+Say it out loud even. If the guy across the desk from you gives you one of those "what a weirdo" looks, then link them to this post. Just be like "he told me too" while pointing at your screen. 
 
 > given choice between complexity or one on one against t-rex, grug take t-rex: at least grug see t-rex
 
@@ -86,8 +86,8 @@ The point can't be drilled hard enough. This is why I wanted to annotate this wi
 
 If you're new to software engineering, and you can't see how all this fits in to your life, work or just the space in general then remember this:
 
-_Complexity is real and it's hunting you right now. But as a inexperienced engineer, you're vulnerable to it's guile and tricks. It's going to tempt you with shiny packages and tools. It's going to bend your mind and titillate your taste buds at conferences and with video presentations. Soon you will think you know more than someone else and next thing you know, you're writing some "cool" code that will impress all of your peers. It has you now. You're its bitch!_
+_Complexity is real and it's hunting you right now. But as an inexperienced engineer, you're vulnerable to its guile and tricks. It's going to tempt you with shiny packages and tools. It's going to bend your mind and titillate your taste buds at conferences and with video presentations. Soon you will think you know more than someone else and next thing you know, you're writing some "cool" code that will impress all of your peers. It has you now. You're its bitch!_
 
-The best counter to complexity as a new engineer I'd say is humility and open mindedness. I wish I applied more when I was younger and the more experienced I get, the more I try to focus on these things. Learn from clever peers. Learn from experienced engineers. 
+The best counter to complexity as a new engineer is humility and open mindedness. I wish I applied more when I was younger and the more experienced I get, the more I try to focus on these things. Learn from clever peers. Learn from experienced engineers. 
 
 May The Force be with you. 🙏
