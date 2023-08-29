@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey, my name is Matt.
 
-I have a severe allergy to complicated software.
+I have a severe allergy to [complicated software](/2023/07/28/complexity.html).
 
 I also joke about nearly everything. Except of course when it comes to complicated software 👆.
 
