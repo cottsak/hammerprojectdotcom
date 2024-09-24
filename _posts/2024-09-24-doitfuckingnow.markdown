@@ -16,4 +16,4 @@ This was inspired by [Jeff's post](https://blog.codinghorror.com/yes-but-what-ha
 
 But this is more personal to me. I struggle sometimes with my ADHD brain. 
 
-I'm going to run an experiment to see if I can invest a little in the meta to get more "doing" results. 
+I'm going to [run an experiment](https://doitfuckingnow.com/) to see if I can invest a little in the meta to get more "doing" results. 
