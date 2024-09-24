@@ -6,7 +6,7 @@ date:   2024-09-24 09:53:00 +0800
 
 I don't think [this post](https://archive.is/BV7mu) needs more emphasis. But I still replaced the period `.` with a bang `!`. The more "kick in the ass" the better I think.
 
-> Don’t wait. Don’t procrastinate. The winners in this world are not the ones who find the greatest excuses to put off doing what they know will make them more money. The winners are the ones that prioritize and seize the day.
+> Don’t wait. Don’t procrastinate. The winners in this world are not the ones who find the greatest excuses to put off doing what they know will make them more money. The winners are the ones that prioritise and seize the day.
 > 
 > Create a list of action items to make sure your important tasks get accomplished. Every project you’re working on should be in action. If you’re not moving, you’re standing still. Your next step towards making money must not be “something I’ll take care of maybe sometime next week.” If it’s going to help make you money: Do it Fucking Now.
 > 
