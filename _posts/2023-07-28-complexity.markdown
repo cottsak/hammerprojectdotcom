@@ -22,9 +22,9 @@ Complexity is quite literally the biggest threat to any software engineer and al
 
 Don't misunderstand this point. It's worth repeating. 
 
-I actually struggled to agree with this a little and it was largely "semantics". But semantics are important because they convey meaning. Don't let someone criticise you because you're "getting hung up on semantics" - people who get hung up on semantics usually care about clarity. This might mean that they want to understand things deeply. Don't miss an opportunity to work with someone like this. 
+I actually struggled to agree with this notion that "complexity is bad" for many years. As you get more experienced and see more code you more honestly and humbly accept the presence of trade-offs in all of software engineering. Maybe even in all of life. So I was challenged many times to consider "[is there a good reason for complexity on occasion](https://www.youtube.com/watch?v=vagyIcmIGOQ&t=1187s)?". On reflection I still don't think there is a good reason to allow complexity, at least not until you've been working on a problem for a long time and you thoroughly understand it. 
 
-There is this narrative in the software engineering community that roughly tries to draw a distinction between **complexity** and that which is **complicated**. That alone deserves a post all on it's own, but the short version for me is that I'm now ok with allowing them to exist in the same container. There might be an occasional reason why complexity is necessary. This is usually the hang up - how can you avoid something that you need? Now I wonder if this is just another problem solving activity. 
+There is also another narrative in the software engineering community that roughly tries to draw a distinction between **complexity** and that which is **complicated**. That alone deserves a post all on it's own, but the short version for me is that I'm now ok with allowing them to exist in the same container. There might be an occasional reason why complexity is necessary. This is usually the hang up - how can you avoid something that you need? Now I wonder if this is just another problem solving activity. 
 
 If you think you truly need complexity `n`, then try to design it out. Try to reduce `n` or delete it altogether. Remember, "[the best part is no part](https://hammerproject.com/2022/11/17/smashing-entropy.html)".
 
